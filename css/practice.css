@@ -1,0 +1,44 @@
+
+
+.main{
+    width: 100%;
+    min-height: 300px;
+    background-size: 100% 100%;
+    float: left;
+    position: relative;
+}
+
+.bg1{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/2.jpg');
+}
+
+.bg2{
+background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/3.jpg');
+}
+
+.bg2{
+    
+}
+
+.filter{
+    width: 100%;
+    min-height: 300px;
+    background: rgb(255, 200, 0);
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    color: white;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.filter:hover{
+    opacity: 0.9;
+}
